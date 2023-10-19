@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head> 
+<title> Toursim blog</title>
+<style>
+body {
+	background-image:url('background.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	}
+	.one {
+		display:inline;
+	}
+	.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:12px
+}
+  .button {
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.left {
+	text-align:right;
+}
+.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+.circle {
+  stroke: #f8aa28;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 650;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 0.3;
+}
+
+.playBut {
+/*  border: 1px solid red;*/
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  
+  .triangle {
+    -webkit-transition: all 0.7s ease-in-out;
+    stroke-dasharray: 240;
+    stroke-dashoffset: 480;
+    stroke: #000;
+    transform: translateY(0) 
+   }
+  
+  
+  &:hover {
+    
+    .triangle {
+      stroke-dashoffset: 0;
+      opacity: 1;
+      stroke: #f8aa28;
+      animation: nudge 0.7s ease-in-out;
+      
+      @keyframes nudge{
+        0% {
+          transform: translateX(0)  
+        }
+        30% {
+          transform: translateX(-5px)
+        }
+        50% {
+          transform: translateX(5px)
+        }
+        70% {
+          transform: translateX(-2px)
+        }
+        100% {
+          transform: translateX(0)
+        }
+      }
+    }
+    
+    .circle {
+      stroke-dashoffset: 0;
+      opacity: 1;
+    }
+    
+  }
+}
+.iss  {
+	width:30px;
+	height:30px;
+	text-align:right;
+}
+  
+	
+	</style>
+</head>
+<body>
+	<center>
+<a href='#' class="one" style='color:green'> Home</a>
+<a href='#' class='one'>Destination</a>
+<a href="#" class='one'> Contact Us</a>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p class='lft'> <img class='iss' src='https://clipart-library.com/images/BcaEL6bxi.png 'style='float:right;'></p>
+<h2 class='two'> Choose the Trip, <br> We'll Make It Posible</h2>
+<button class='button'style='text-align:center'> Book Now&#8594;</button>
+</body>
