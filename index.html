@@ -1,6 +1,37 @@
 <!DOCTYPE html>
 <head> 
 <title> Toursim blog</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
 <style>
 body {
 	background-image:url('background.png');
@@ -12,7 +43,7 @@ body {
 		display:inline;
 	}
 	.button {
-  background-color: #fcba03; /* Green */
+  background-color: #ed9c21; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -28,83 +59,87 @@ body {
 .left {
 	text-align:right;
 }
-.container {
-  width: 100%;
-  text-align: center;
-  margin-top: 25vh;
+.two {
+	font-family: 'Playfair Display', serif;
+	font-size:60px;
+	color:#f5f7f7;
+}
+.troo {
+	font-family: 'Great Vibes', cursive;
+}
+ .navbar {
+      background-color: #00000000;
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+    }
+    .login {
+		padding: 140px 16px;
+	}
+	
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
 
-.circle {
-  stroke: #f8aa28;
-  stroke-dasharray: 650;
-  stroke-dashoffset: 650;
-  -webkit-transition: all 0.5s ease-in-out;
-  opacity: 0.3;
-}
+	 .root {
+      background-color:white;
+      overflow:visible;
+    }
 
-.playBut {
-/*  border: 1px solid red;*/
-  display: inline-block;
-  -webkit-transition: all 0.5s ease;
-  
-  .triangle {
-    -webkit-transition: all 0.7s ease-in-out;
-    stroke-dasharray: 240;
-    stroke-dashoffset: 480;
-    stroke: #000;
-    transform: translateY(0) 
-   }
-  
-  
-  &:hover {
-    
-    .triangle {
-      stroke-dashoffset: 0;
-      opacity: 1;
-      stroke: #f8aa28;
-      animation: nudge 0.7s ease-in-out;
-      
-      @keyframes nudge{
-        0% {
-          transform: translateX(0)  
-        }
-        30% {
-          transform: translateX(-5px)
-        }
-        50% {
-          transform: translateX(5px)
-        }
-        70% {
-          transform: translateX(-2px)
-        }
-        100% {
-          transform: translateX(0)
-        }
-      }
+    .root a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
     }
-    
-    .circle {
-      stroke-dashoffset: 0;
-      opacity: 1;
+
+    .root a:hover {
+      background-color: #ddd;
     }
-    
-  }
-}
-.iss  {
-	width:30px;
-	height:30px;
-	text-align:right;
-}
-  
 	
 	</style>
 </head>
 <body>
 	<center>
-<a href='#' class="one" style='color:green'> Home</a>
-<a href='#' class='one'>Destination</a>
-<a href="#" class='one'> Contact Us</a>
+		 <div class="navbar">
+	
+    <a href="#" style="font-family: 'Rubik', sans-serif;color:#f7fafc; " ><span class="material-symbols-outlined">
+home
+</span>Home</a>
+    <a href="#" style="font-family: 'Rubik', sans-serif; color:#f7fafc;" ><span class="material-symbols-outlined">
+map
+</span>Destination</a>
+     <a href='#' style="font-family: 'Rubik', sans-serif;color:#f7fafc; " ><span class="material-symbols-outlined">
+rss_feed
+</span> Blog</a>
+    <a href="#" style="font-family: 'Rubik', sans-serif;color:#f7fafc;"  ><span class="material-symbols-outlined">
+contact_support
+</span>Contact Us</a>
+    <a href='log' style="font-family: 'Rubik', sans-serif; color:#f7fafc;" ><span class="material-symbols-outlined">
+login
+</span>Login </a>
+     <a href='sign'class='login' style="font-family: 'Rubik', sans-serif; color:#f7fafc;" > Sign Up </a>
+      
+  </div>
 </center>
+
 <br>
 <br>
 <br>
@@ -112,7 +147,42 @@ body {
 <br>
 <br>
 
-<p class='lft'> <img class='iss' src='https://clipart-library.com/images/BcaEL6bxi.png 'style='float:right;'></p>
-<h2 class='two'> Choose the Trip, <br> We'll Make It Posible</h2>
+
+
+<h3 class='troo' style='color:#f5f7f7;'> Make Your Tour Memories</h3>
+<h2 class='two' style='font-family: 'Roboto Condensed', sans-serif;> Choose the Trip, <br> We'll Make It Possible</h2>
 <button class='button'style='text-align:center'> Book Now&#8594;</button>
-</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<h1 style="color:white;font-weight:bold;font-family: 'Roboto Slab', serif;font-size:40px"> Blogs</h1>
+<h3 style="color:white;font-weight:bold;font-family: 'Roboto Condensed', sans-serif;"> By Our Travelers</h3>
+<p style="color:white;font-weight:bold;font-family: 'Playpen Sans', cursive;">1. Unveiling the Enchanting Streets of Paris:
+In our recent escapade, we found ourselves strolling through the romantic streets of Paris. From the iconic Eiffel Tower to the charming Montmartre district, every corner exuded an air of elegance and history. We indulged in delectable pastries at local patisseries, explored world-class museums like the Louvre, and witnessed the breathtaking beauty of Notre-Dame Cathedral. Paris truly captivated our hearts.
+<br>
+<br>
+2. A Safari Adventure in the Serengeti:
+Our next expedition took us to the vast plains of the Serengeti in Tanzania. We embarked on an unforgettable safari, where we witnessed the Great Migration, a natural spectacle like no other. The sight of thousands of wildebeest and zebras crossing the Mara River left us in awe. We also had close encounters with majestic lions, graceful giraffes, and playful elephants. The Serengeti is a wildlife enthusiast's paradise.
+<br>
+<br>
+3. Discovering the Ancient Wonders of Machu Picchu:
+Peru's mystical ruins of Machu Picchu beckoned us to explore its ancient mysteries. We hiked along the Inca Trail, surrounded by breathtaking mountain vistas and lush greenery. As we reached the Sun Gate, the sight of the majestic citadel emerging from the mist was truly awe-inspiring. We delved into the rich history of the Incas, marveled at the intricate stonework, and soaked in the spiritual energy of this UNESCO World Heritage site.
+<br>
+<br>
+4. Island Paradise in the Maldives:
+Our journey then took us to the pristine beaches and crystal-clear waters of the Maldives. We relaxed in luxurious overwater bungalows, indulged in world-class snorkeling and diving, and savored delicious seafood cuisine. The vibrant marine life, including colorful coral reefs and playful dolphins, left us mesmerized. The Maldives offered the perfect blend of tranquility and adventure.
+<br>
+<br>
+5. Cultural Immersion in Kyoto:
+In the land of the rising sun, we explored the cultural wonders of Kyoto, Japan. We wandered through enchanting bamboo forests, visited ancient temples, and witnessed traditional tea ceremonies. The vibrant cherry blossoms in spring painted a picturesque landscape, while the serene gardens provided moments of reflection. Kyoto's blend of tradition and modernity left an indelible mark on our souls.
+  </p>
+ <center> 
+<h1 style="font-family: 'Josefin Sans', sans-serif;color:white;font-size:40px"> About US </h1>
+<a href="https://www.instagram.com/keralatourism/?hl=en"><img src="https://static-00.iconduck.com/assets.00/instagram-icon-512x512-ggh8x3cn.png" style='height:40px;weight:40px;'></a>
+ <a href="https://www.facebook.com/keralatourismofficial/"><img src="https://clipart-library.com/images_k/facebook-logo-with-transparent-background/facebook-logo-with-transparent-background-2.png"style="height:40px;width:40px;"></a>
+ </center>
+
+	</body>
